@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width, initial-scale-1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shelter</title>
+    <link rel="stylesheet" href="friends.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="logo">
+                <a href="../index.html">
+                    <h1 class="logo__title">Cozy House</h1>
+                    <h2 class="logo__subtitle">Shelter for pets in Boston</h2>
+                </a>
+            </div>
+            <nav class="menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="list">
+                    <li class="list__item">
+                        <a href="../index.html" class="list__link list__link__disabled">About the shelter</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="" class="list__link first__list__link">Our pets</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="" class="list__link list__link__disabled disabled__link__ever">Help the shelter</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="" class="list__link list__link__disabled disabled__link__ever">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="friends">
+            <h3 class="friends__title">Our friends who
+are looking for a house</h3>
+            <div class="page" id="page">
+                <div class="pets" id="pets">
+                </div>
+            </div>
+            <div class="buttons__wrapper">
+                <button class="button button__disabled" id="firstPage" disabled><img src="../assets/doubleArrowLeft.svg" alt="turn left"></button>
+                <button class="button button__disabled" id="prevPage" disabled><img src="../assets/dArrowLeft.png" alt="turn left"></button>
+                <button class="button button__active" id="currentPage">0</button>
+                <button class="button" id="nextPage"><img src="../assets/arr-r.png" alt="turn right"></button>
+                <button class="button" id="lastPage"><img src="../assets/arrowRight.png" alt="turn right"></button>
+            </div>
+            <div class="b-popup"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <ul class="content__contacts">
+                <li>
+                    <h3 class="footer__titile">For questions and suggestions</h3>
+                </li>
+                <li>
+                    <a href="https://gmail.com" class="footer__item"><img src="../assets/mail.svg" alt="mail" class="footer_icons">email@shelter.com</a>
+                </li>
+                <li>
+                    <a href="tel:+13 674 567 75 54" class="footer__item"><img src="../assets/phone.svg" alt="phone" class="footer_icons">+13 674 567 75 54</a>
+                </li>
+            </ul>
+            <ul class="content__adress">
+                <li>
+                    <h3 class="footer__titile">We are waiting for your visit</h3>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/place/1+Central+St,+Boston,+MA+02109,+%D0%A1%D0%A8%D0%90/@42.3585519,-71.056915,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370868bc2ce7b:0x82fa7db94f5fea9e!8m2!3d42.3585519!4d-71.0547263" target="_blank" class="footer__item"><img src="../assets/pin.svg" alt="pin" class="footer_icons">1 Central Street, Boston (entrance from the store)</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/18+South+Park,+London/@51.4750066,-0.2544279,12z/data=!3m1!4b1" target="_blank" class="footer__item"><img src="../assets/icon-marker.svg" alt="icon" class="footer_icons" >18 South Park, London</a>
+                </li>
+            </ul>
+            <img src="../assets/footer-puppy.png" alt="footer-puppy" class="footer__puppy">
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
